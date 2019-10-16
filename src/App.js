@@ -1,13 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-import Header from './components/Header.jsx'
+import Header from './components/Header/Header.jsx'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App" >
-      <Header></Header>
-    </div>
+    <Router>
+      <div className="App" >
+        <Header></Header>
+      </div>
+    </Router>
   );
 }
 

@@ -1,10 +1,13 @@
 import ReactDom from 'react-dom';
 import React from 'react';
-import '../styles/header.css';
+import './header.scss';
 
 class Header extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
   }
 
   render() {
